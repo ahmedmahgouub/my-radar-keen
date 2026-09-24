@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btnStartRadar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#00D2FF"
+        android:text="تشغيل الرادار"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btnKpm"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#1E232F"
+            android:text="مود KPM"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnKernel"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#00D2FF"
+            android:text="كيرنل مود"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
